@@ -1,0 +1,7 @@
+core
+model
+model.entities
+model.equipement
+model.exceptions
+model.panes
+model.world
