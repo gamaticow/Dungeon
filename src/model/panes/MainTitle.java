@@ -39,6 +39,7 @@ public class MainTitle extends Pane {
                 break;
             case 'O':
                 openSoluce();
+                print();
         }
     }
 
