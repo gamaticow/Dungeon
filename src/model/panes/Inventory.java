@@ -151,6 +151,7 @@ public class Inventory extends Pane {
 
         Console.line();
 
+        Console.println("0-"+(MAX_WEAPONS-1) +" : To take the corresponding weapon");
         Console.println("D : Drop a weapon");
         Console.println("Q : Close inventory");
     }

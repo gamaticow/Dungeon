@@ -79,7 +79,7 @@ public class FightPane extends Pane {
                 dungeon.removeSubListener();
                 return;
             }
-            Console.println("You can't get flee");
+            Console.println("You can't flee");
             print();
         }
     }
@@ -91,10 +91,10 @@ public class FightPane extends Pane {
     public void print() {
         Console.println("Your hp : " + dungeon.getPlayer().getHp() + " Foe hp : " + room.getFoe().getHp());
         for(RPS rps : RPS.values())
-            Console.println(rps.keyCode +" : For a "+ rps);
+            Console.println(rps.keyCode +" : For "+ rps);
         Console.line();
         if(canFlee) {
-            Console.println("F : For flee");
+            Console.println("F : To flee (33% chance to flee)");
             Console.line();
         }
     }
@@ -121,7 +121,7 @@ public class FightPane extends Pane {
         }
 
         /**
-         * Return if the elemnt win again an opponent
+         * Return if the element win again an opponent
          * @param opponent The RPS opponent
          * @return If the element wins.
          */

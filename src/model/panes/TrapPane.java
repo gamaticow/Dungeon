@@ -14,7 +14,7 @@ import java.util.Random;
  */
 public class TrapPane extends Pane {
 
-    private static final int TIME = 5;
+    private static final int TIME = 6;
     private static final int LETTERS = 3;
     private static final String ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 

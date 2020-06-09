@@ -144,13 +144,13 @@ public class Room {
         }
 
         if(n)
-            Console.println(Direction.NORTH.getKeyCode() + " : For take the door on " + Direction.NORTH);
+            Console.println(Direction.NORTH.getKeyCode() + " : To take the door on " + Direction.NORTH);
         if(e)
-            Console.println(Direction.EAST.getKeyCode() + " : For take the door on " + Direction.EAST);
+            Console.println(Direction.EAST.getKeyCode() + " : To take the door on " + Direction.EAST);
         if(s)
-            Console.println(Direction.SOUTH.getKeyCode() + " : For take the door on " + Direction.SOUTH);
+            Console.println(Direction.SOUTH.getKeyCode() + " : To take the door on " + Direction.SOUTH);
         if(w)
-            Console.println(Direction.WEST.getKeyCode() + " : For take the door on " + Direction.WEST);
+            Console.println(Direction.WEST.getKeyCode() + " : To take the door on " + Direction.WEST);
     }
 
     /**
